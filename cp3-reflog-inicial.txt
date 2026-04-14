@@ -1,0 +1,24 @@
+git reflog
+
+cefafe7 HEAD@{2}: commit: actualizar main antes de integrar A
+e71163a HEAD@{3}: checkout: moving from feature-b to main
+10940ef (feature-b) HEAD@{4}: commit: función B añadida en progreso
+e71163a HEAD@{5}: checkout: moving from main to feature-b
+e71163a HEAD@{6}: checkout: moving from feature-a to main
+b327497 (feature-a) HEAD@{7}: rebase (finish): returning to refs/heads/feature-a
+b327497 (feature-a) HEAD@{8}: rebase (reword): añadir función A en progreso
+f5d243e HEAD@{9}: rebase: fast-forward
+e71163a HEAD@{10}: rebase (start): checkout HEAD~2
+f5d243e HEAD@{11}: commit: añadir función A en progreos
+e71163a HEAD@{12}: checkout: moving from main to feature-a
+e71163a HEAD@{13}: commit: commit inicial layton
+9508c8e (origin/main, origin/HEAD) HEAD@{14}: clone: from https://github.com/IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1.gi
+
+===
+
+git log nos enseña directamente los commits que existen y 
+las ramas en las que existen. no nos enseñan información sobre
+la historia de cada commit, sino su último estado.
+
+git reflog nos enseña la historia de acciones importantes y relevantes
+en nuestra historia, inluyendo commits, checkouts, rebases, push/pull, etc.

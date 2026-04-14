@@ -1,0 +1,34 @@
+"perder" los commits:
+
+git reset --hard b327497
+b327497 es el commit donde hemos creado la función A
+
+===
+
+encontrar el estado anterior:
+
+git reflog
+b327497 (HEAD -> main, feature-a) HEAD@{0}: reset: moving to b327497
+AQUÍ >> f6b16cb HEAD@{1}: commit (merge): Merge branch 'feature-a'
+cefafe7 HEAD@{2}: reset: moving to HEAD
+cefafe7 HEAD@{3}: commit: actualizar main antes de integrar A
+e71163a HEAD@{4}: checkout: moving from feature-b to main
+10940ef (feature-b-recuperación) HEAD@{5}: commit: función B añadida en progreso
+e71163a HEAD@{6}: checkout: moving from main to feature-b
+e71163a HEAD@{7}: checkout: moving from feature-a to main
+b327497 (HEAD -> main, feature-a) HEAD@{8}: rebase (finish): returning to refs/heads/feature-a
+b327497 (HEAD -> main, feature-a) HEAD@{9}: rebase (reword): añadir función A en progreso
+f5d243e HEAD@{10}: rebase: fast-forward
+e71163a HEAD@{11}: rebase (start): checkout HEAD~2
+f5d243e HEAD@{12}: commit: añadir función A en progreos
+e71163a HEAD@{13}: checkout: moving from main to feature-a
+e71163a HEAD@{14}: commit: commit inicial layton
+9508c8e (origin/main, origin/HEAD) HEAD@{15}: clone: from https://github.com/IE
+S-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1.git
+
+===
+
+recuperar los commits:
+
+git reset --hard HEAD@{1}
+también podemos usar el hash: git reset --hard f6b16cb

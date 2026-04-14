@@ -1,0 +1,18 @@
+la entrada reflog en la rama feature-b:
+
+10940ef HEAD@{4}: commit: función B añadida en progreso
+e71163a HEAD@{5}: checkout: moving from main to feature-b
+
+===
+
+para crear una rama nueva con el estado en el momento de ese commit:
+git branch feature-b-recuperada 10940ef
+o
+git branch feature-b-recuperada HEAD#{4}
+
+===
+
+reflog es útil porque nos enseña la historia completa
+de todos los cambios que hayamos hecho a la historia de commmits.
+Cuando eliminamos una rama, no aparecerá en git log,
+pero sí en git reflog.

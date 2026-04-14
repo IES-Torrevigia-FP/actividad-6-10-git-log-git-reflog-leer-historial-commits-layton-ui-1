@@ -1,0 +1,12 @@
+salida de git log --oneline --graph --decorate --all
+
+*   f6b16cb (HEAD -> main) Merge branch 'feature-a'
+|\  
+| * b327497 (feature-a) añadir función A en progreso
+* | cefafe7 actualizar main antes de integrar A
+|/  
+| * 10940ef (feature-b) función B añadida en progreso
+|/  
+* e71163a commit inicial layton
+* 9508c8e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit

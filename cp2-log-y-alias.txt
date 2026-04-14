@@ -1,0 +1,228 @@
+varias salidas de git log:
+
+
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1$ git log 
+commit f6b16cb952c5d64b2c03cc6b6431be186283795c (HEAD -> main)
+Merge: cefafe7 b327497
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:27:01 2026 +0200
+
+    Merge branch 'feature-a'
+
+commit cefafe74b3e9af1a4c6d71eedfdd86b62bb5fe4e
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:25:12 2026 +0200
+
+    actualizar main antes de integrar A
+
+commit b327497a6228180daa802bf74fa7bfd04b145de3 (feature-a)
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:20:14 2026 +0200
+
+    añadir función A en progreso
+
+commit e71163a40d1cd67188e453d0225d061d256e3eec
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:19:07 2026 +0200
+
+    commit inicial layton
+
+commit 9508c8e8a910c09853b2b331b56ef38d7269aaf2 (origin/main, origin/HEAD)
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.git
+hub.com>
+Date:   Tue Apr 14 08:27:40 2026 +0000
+
+    add deadline
+
+commit c196b2aff95dd875c278c20e3c1931885c94723c
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.git
+hub.com>
+Date:   Thu Apr 9 15:16:43 2026 +0000
+
+    Initial commit
+(END)
+commit e71163a40d1cd67188e453d0225d061d256e3eec
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:19:07 2026 +0200
+
+    commit inicial layton
+
+commit 9508c8e8a910c09853b2b331b56ef38d7269aaf2 (origin/main, origin/HEAD)
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Tue Apr 14 08:27:40 2026 +0000
+
+    add deadline
+
+commit c196b2aff95dd875c278c20e3c1931885c94723c
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Thu Apr 9 15:16:43 2026 +0000
+
+    Initial commit
+...skipping...
+commit e71163a40d1cd67188e453d0225d061d256e3eec
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:19:07 2026 +0200
+
+    commit inicial layton
+
+commit 9508c8e8a910c09853b2b331b56ef38d7269aaf2 (origin/main, origin/HEAD)
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Tue Apr 14 08:27:40 2026 +0000
+
+    add deadline
+
+commit c196b2aff95dd875c278c20e3c1931885c94723c
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Thu Apr 9 15:16:43 2026 +0000
+
+    Initial commit
+...skipping...
+commit e71163a40d1cd67188e453d0225d061d256e3eec
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:19:07 2026 +0200
+
+    commit inicial layton
+
+commit 9508c8e8a910c09853b2b331b56ef38d7269aaf2 (origin/main, origin/HEAD)
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Tue Apr 14 08:27:40 2026 +0000
+
+    add deadline
+
+commit c196b2aff95dd875c278c20e3c1931885c94723c
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Thu Apr 9 15:16:43 2026 +0000
+
+    Initial commit
+(END)
+commit e71163a40d1cd67188e453d0225d061d256e3eec
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:19:07 2026 +0200
+
+    commit inicial layton
+
+commit 9508c8e8a910c09853b2b331b56ef38d7269aaf2 (origin/main, origin/HEAD)
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Tue Apr 14 08:27:40 2026 +0000
+
+    add deadline
+
+commit c196b2aff95dd875c278c20e3c1931885c94723c
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Thu Apr 9 15:16:43 2026 +0000
+
+    Initial commit
+(END)
+commit e71163a40d1cd67188e453d0225d061d256e3eec
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Tue Apr 14 12:19:07 2026 +0200
+
+    commit inicial layton
+
+commit 9508c8e8a910c09853b2b331b56ef38d7269aaf2 (origin/main, origin/HEAD)
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Tue Apr 14 08:27:40 2026 +0000
+
+    add deadline
+
+commit c196b2aff95dd875c278c20e3c1931885c94723c
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Thu Apr 9 15:16:43 2026 +0000
+
+    Initial commit
+
+
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1$ git log --oneline
+f6b16cb (HEAD -> main) Merge branch 'feature-a'
+cefafe7 actualizar main antes de integrar A
+b327497 (feature-a) añadir función A en progreso
+e71163a commit inicial layton
+9508c8e (origin/main, origin/HEAD) add deadline
+c196b2a Initial commit
+
+
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1$ git log --oneline --graph
+*   f6b16cb (HEAD -> main) Merge branch 'feature-a'
+|\  
+| * b327497 (feature-a) añadir función A en progreso
+* | cefafe7 actualizar main antes de integrar A
+|/  
+* e71163a commit inicial layton
+* 9508c8e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+
+
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1$ git log --oneline --graph --decorate
+*   f6b16cb (HEAD -> main) Merge branch 'feature-a'
+|\  
+| * b327497 (feature-a) añadir función A en progreso
+* | cefafe7 actualizar main antes de integrar A
+|/  
+* e71163a commit inicial layton
+* 9508c8e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+
+
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1$ git log --oneline --graph --decorate --all
+*   f6b16cb (HEAD -> main) Merge branch 'feature-a'
+|\  
+| * b327497 (feature-a) añadir función A en progreso
+* | cefafe7 actualizar main antes de integrar A
+|/  
+| * 10940ef (feature-b) función B añadida en progreso
+|/  
+* e71163a commit inicial layton
+* 9508c8e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+
+
+
+con filtro:
+
+
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1$ git log --oneline --author="Layton Bristow"
+f6b16cb (HEAD -> main) Merge branch 'feature-a'
+cefafe7 actualizar main antes de integrar A
+b327497 (feature-a) añadir función A en progreso
+e71163a commit inicial layton
+
+
+
+===
+
+
+
+alias:
+
+
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1$ git config --global alias.lg "log --oneline --graph --decorate --all"
+
+mint@layton-mint-VirtualBox:~/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-layton-ui-1$ git lg
+*   f6b16cb (HEAD -> main) Merge branch 'feature-a'
+|\  
+| * b327497 (feature-a) añadir función A en progreso
+* | cefafe7 actualizar main antes de integrar A
+|/  
+| * 10940ef (feature-b) función B añadida en progreso
+|/  
+* e71163a commit inicial layton
+* 9508c8e (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+
+
+
+===
+
+
+
+Para mis usos, me resulta más conveniente el comando
+git log --oneline --all
+es simple, me da la información relevante (hash, nombre), 
+y me enseña commits de todas las ramas.
